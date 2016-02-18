@@ -1,0 +1,22 @@
+[
+    {
+        "name":"Jackets",
+        "id":"jackets",
+        "img":"img/products/mens-ultralight-down-hoody-underwater-blue.jpeg"
+    },
+    {
+        "name":"Sweatshirts & Hoodies",
+        "id":"hoodies",
+        "img":"img/products/mens-crew-sweatshirt-kelp-forest.jpeg"
+    },
+    {
+        "name":"Shirts",
+        "id":"shirts",
+        "img":"img/products/mens-pollo-shock-pink.jpeg"
+    },
+    {
+        "name":"Pants",
+        "id":"pants",
+        "img":"img/products/mens-untracked pants-forge-grey.jpeg"
+    }
+]

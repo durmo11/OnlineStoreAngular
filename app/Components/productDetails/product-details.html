@@ -1,0 +1,19 @@
+<div ng-repeat="product in (products|filter:productKeyValue)" layout>
+  <md-content flex="60" layout layout-align"center center">
+      <li flex-gt-md="50" flex-gt-md="50" ng-repeat="img in product.images">
+        <img  ng-src="{{img}}" ng-click="setImage(img)">
+      </li>
+</md-content>
+<div flex="40">
+  <md-toolbar class="md-whiteframe-glow-z1 site-content-toolbar"><h3 layout layout-align="center center">{{product.name}}</h3></md-toolbar>
+  <img class="largeThumb" ng-src="{{product.images[0]}}" alt="{{product.name}}">
+  <div class="thumb" layout layout-align="center center">
+    <img ng-src="{{img}}"
+         class="product"
+         ng-repeat="img in product.images"
+         ng-class="{active: mainImageUrl==img}">
+  </div>
+  <span class="price" layout-align="left">Price:{{product.price|currency}}</span>
+  <ngcart-addtocart id="{{product.id}}" name="{{product.name}}" price="{{product.price}}" quantity="1" quantity-max="5" layout layout-align="center center"></ngcart-addtocart>
+</div>
+</div>

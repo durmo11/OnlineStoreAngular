@@ -1,0 +1,72 @@
+// inject:global
+// endinject
+
+// bower:css
+// endbower
+
+// inject:app
+// endinject
+/* app css stylesheet */
+* {box-sizing: border-box;}
+a{display:block;}
+section div.md-padding {background:rgba(0,0,0,0.5);}
+div md-input-container {margin:0}
+section md-input-container .md-input {border-color:white;}
+md-input-container .md-placeholder, md-input-container label:not(.md-no-float):not(.md-container-ignore) {padding-left:10px;color:white;}
+md-sidenav {background:#383838; height:100vh;}
+md-select .md-select-value {border-bottom-color:white; color:white;}
+md-select .md-select-value.md-select-placeholder {color:white;}
+md-sidenav md-content {background:#9E9E9E;}
+md-sidenav img {display:block; width:100%; height:auto;     max-width: 100px;
+    margin: 30px auto;}
+md-sidenav h1 {text-transform:uppercase;text-align:center; font-weight:normal; color:white;}
+md-sidenav .md-button {    display: block;
+    text-align: center;
+    width: 95%;
+    background: rgba(255,255,255,.12);
+    box-sizing: border-box;
+    margin: 10px auto;}
+md-sidenav .md-button a {color:white; text-decoration: none;}
+md-content ul {padding:40px; margin:0;}
+md-content li {list-style:none;}
+md-content li img {max-width:500px; height:auto; display:block;margin-top:6px;}
+div.fill-height {background:rgba(0,0,0,0.9);}
+div.fill-height img {max-width: 60px;
+    display: block;
+    margin:0 auto;
+    max-height: 55px;
+    padding: 0px;}
+div.fill-height h1 {padding-left:30px;margin:0; color:white; font-weight:normal;}
+md-toolbar {background:rgba(0,0,0,0.7) !important;}
+md-toolbar h1 {color:white; text-align: center; text-transform: uppercase;}
+main md-toolbar h1 {color:#fff;  margin:10px;}
+img.largeThumb {max-width:250px; display:block; width:100%; height:auto; margin:0 auto;}
+div.thumb {margin:10px auto; text-align: center;}
+div.thumb img {height: auto; cursor:pointer;
+  width: 100%;
+  max-width:50px;
+  padding:5px; border:1px solid black; margin:5px;}
+div.products > div { box-shadow: 0 0 4px 1px rgba(0,0,0,0.2);text-align: center;padding:10px; margin:10px;}
+div.products > div a {text-decoration:none; color:black;}
+div.products a span {display:block;text-align: center;}
+ngproduct-details.ng-scope.ng-isolate-scope span.price {display:block; margin:10px auto; text-align: center; font-size:24px; padding:10px; background: rgba(0,0,0,0.2);}
+span.checkout {color:white !important;}
+md-toolbar.shopping-cart.ng-scope.layout-align-end-center.layout-row {background:none !important;}
+md-toolbar.shopping-cart.ng-scope.layout-align-end-center.layout-row div {margin:0 20px;}
+.glyph {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'fontAwesome';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;width:15px; height:15px;}
+.glyph-minus:before {content:"\f068"}
+.glyph-plus:before {content:"\f055"}
+fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+}

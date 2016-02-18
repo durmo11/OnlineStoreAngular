@@ -1,0 +1,201 @@
+[
+    {
+        "category":"pans",
+        "id": "mens-untracked pants",
+        "images": [
+            "img/products/mens-untracked pants-forge-grey.jpeg",
+            "img/products/mens-untracked pants-ash-tan.jpeg",
+            "img/products/mens-untracked pants-navy-blue.jpeg",
+            "img/products/mens-untracked pants-peppergrass-green.jpeg"
+        ],
+        "name": "Men's Untracked Pants",
+        "snippet": "Updated this season with a refined silhouette, new design lines and a slick lining between the snow gaiter and hem, the Untracked Pants are warm, low-bulk snow pants built for comfort and protection.
+",
+        "price":"449"
+    },
+    {
+        "category":"pans",
+        "id": "mens-powder-bowl-pants",
+        "images": [
+            "img/products/mens-powder-bowl-pants-arbor-green.jpeg",
+            "img/products/mens-powder-bowl-pants-ash-tan.jpeg",
+            "img/products/mens-powder-bowl-pants-french-red.jpeg",
+            "img/products/mens-powder-bowl-pants-peppergrass-green.jpeg"
+        ],
+        "name": "MEN'S POWDER BOWL PANTS",
+        "snippet": "Built for season-long comfort, the Men’s Powder Bowl Pants are built with a tough 2-layer GORE-TEX® fabric for durably waterproof/breathable and windproof protection, and articulated patterning for freedom of movement.
+",
+        "price":"299"
+    },
+    {
+        "category":"pans",
+        "id": "mens-insulated-powder-bowl-pants",
+        "images": [
+            "img/products/mens-insulated-powder-bowl-pants-black.jpeg",
+            "img/products/mens-insulated-powder-bowl-pants-navy-blue.jpeg"
+        ],
+        "name": " MEN'S INSULATED POWDER BOWL PANTS",
+        "snippet": "These pants are built with strategically placed 60-g Thermogreen® for warmth where you need it most, and 2-layer GORE-TEX® polyester fabric for durably waterproof/breathable and windproof protection.
+",
+        "price":"379"
+    },
+    {
+        "category":"pans",
+        "id": "mens-snowshot-pants",
+        "images": [
+            "img/products/mens-snowshot-pants-deep-mahogany.jpeg",
+            "img/products/mens-snowshot-pants-navy-blue.jpeg",
+            "img/products/mens-snowshot-pants-deep-peppergrass-green.jpeg",
+            "img/products/mens-snowshot-pants-black.jpeg"
+        ],
+        "name": " MEN'S SNOWSHOT PANTS",
+        "snippet": "Fully featured and focused on utility, these H2No® Performance Standard 2-layer shell pants have an articulated fit for freedom of movement and a smooth mesh liner for comfort and ease of layering.
+",
+        "price":"199"
+    },
+    {
+        "category":"jackets",
+        "id": "mens-down-sweater-jacket",
+        "images": [
+            "img/products/mens-down-sweater-jacket-nambre-forge-grey.jpeg",
+            "img/products/mens-down-sweater-jacket-navy-blue.jpeg",
+            "img/products/mens-down-sweater-jacket-peppergrass-green.jpeg",
+            "img/products/mens-down-sweater-jacket-underwater-blue.jpeg"
+        ],
+        "name": "MEN'S DOWN SWEATER JACKET",
+        "snippet": "The perfect warmth for just about everything, our classic Down Sweater is lightweight and windproof with a 100% recycled polyester ripstop shell and 800-fill-power Traceable Down (European goose down traced from parent farm to apparel factory to help ensure the birds that supply it are not force-fed or live-plucked).
+",
+        "price":"229"
+    },
+    {
+        "category":"jackets",
+        "id": "mens-nano-air-jacket",
+        "images": [
+            "img/products/mens-nano-air-jacket-supply-green.jpeg",
+            "img/products/mens-down-sweater-jacket-navy-blue.jpeg",
+            "img/products/mens-nano-air-jacket-sporty-orange.jpeg",
+            "img/products/mens-nano-air-jacket-drifter-grey.jpeg"
+        ],
+        "name": "MEN'S NANO-AIR® JACKET",
+        "snippet": "An insulation breakthrough: The Nano-Air® Jacket featuring FullRange insulation is warm, stretchy and so breathable, you can wear it for the entirety of any highly aerobic start-stop mission in the mountains.",
+        "price":"249"
+    },
+    {
+        "category":"jackets",
+        "id": "mens-down-shirt",
+        "images": [
+            "img/products/mens-down-shirt-electronic-blue.jpeg",
+            "img/products/mens-down-shirt-oaks-brown.jpeg",
+            "img/products/mens-down-shirt-french-red.jpeg",
+            "img/products/mens-down-shirt-forge-grey.jpeg"
+        ],
+        "name": "MEN'S DOWN SHIRT",
+        "snippet": "The perfect warmth for just about everything, our classic Down Sweater is lightweight and windproof with a 100% recycled polyester ripstop shell and 800-fill-power Traceable Down (European goose down traced from parent farm to apparel factory to help ensure the birds that supply it are not force-fed or live-plucked).
+",
+        "price":"229"
+    },
+    {
+        "category":"jackets",
+        "id": "mens-ultralight-down-hoody",
+        "images": [
+            "img/products/mens-ultralight-down-hoody-underwater-blue.jpeg",
+            "img/products/mens-ultralight-down-hoody-sporty-orange.jpeg"
+        ],
+        "name": "MEN'S ULTRALIGHT DOWN HOODY",
+        "snippet": "So light. So warm. The Ultralight Down Hoody combines 800-fill-power Traceable Down (European goose down traced from parent farm to apparel factory to help ensure the birds that supply it are not force-fed or live-plucked) with a superlight 15-denier Pertex® Quantum shell for the lightest-weight down hoody we make. Fabric is bluesign® approved.",
+        "price":"349"
+    },
+    {
+        "category":"sweatshirts-hoodies",
+        "id": "mens-fitzoy-midweight",
+        "images": [
+            "img/products/mens-fitzoy-midweight-feather-grey.jpeg",
+            "img/products/mens-fitzoy-midweight-kelp-forest.jpeg"
+        ],
+        "name": "MEN'S FITZ ROY TROUT MIDWEIGHT FULL-ZIP HOODY",
+        "snippet": "Made of an organic cotton/polyester/spandex blend, this midweight full-zip hoody is screen-printed with inks that are PVC- and phthalate-free. Fair Trade Certified™ sewing.
+",
+        "price":"99"
+    },
+    {
+        "category":"sweatshirts-hoodies",
+        "id": "mens-line-logo-pullover",
+        "images": [
+            "img/products/mens-line-logo-pullover-andes-blue.jpeg",
+            "img/products/mens-line-logo-pullover-black.jpeg"
+        ],
+        "name": "MEN'S LINE LOGO MIDWEIGHT PULLOVER HOODY",
+        "snippet": "Made of an organic cotton/polyester/spandex blend, this midweight pullover hoody is screen-printed with inks that are PVC- and phthalate-free. Fair Trade Certified™ sewing.
+",
+        "price":"79"
+    },
+    {
+        "category":"sweatshirts-hoodies",
+        "id": "mens-crew-sweatshirt",
+        "images": [
+            "img/products/mens-crew-sweatshirt-kelp-forest.jpeg",
+            "img/products/mens-crew-sweatshirt-feather-grey.jpeg"
+        ],
+        "name": "MEN'S FITZ ROY BAR MIDWEIGHT CREW SWEATSHIRT",
+        "snippet": "Made of an organic cotton/polyester/spandex blend, this midweight pullover hoody is screen-printed with inks that are PVC- and phthalate-free. Fair Trade Certified™ sewing.
+",
+        "price":"49"
+    },
+    {
+        "category":"sweatshirts-hoodies",
+        "id": "mens-tree-man-pullover",
+        "images": [
+            "img/products/mens-tree-man-pullover-navy-blue.jpeg",
+            "img/products/mens-tree-man-pullover-kelp-forest.jpeg"
+        ],
+        "name": "MEN'S TREE MAN MIDWEIGHT PULLOVER HOODED SWEATSHIRT",
+        "snippet": "Made of an organic cotton/polyester/spandex blend, this midweight pullover hoody is screen-printed with inks that are PVC- and phthalate-free. Fair Trade Certified™ sewing.
+",
+        "price":"79"
+    },
+    {
+        "category":"shirts",
+        "id": "mens-all-season-shirt",
+        "images": [
+            "img/products/mens-all-season-shirt-arbor-green.jpeg",
+            "img/products/mens-all-season-shirt-arbor-ash-tan.jpeg"
+        ],
+        "name": "MEN'S ALL SEASON FIELD SHIRT",
+        "snippet": "A rugged, versatile shirt designed for any outdoor activity.",
+        "price":"89"
+    },
+    {
+        "category":"shirts",
+        "id": "mens-pollo",
+        "images": [
+            "img/products/mens-pollo-shock-pink.jpeg",
+            "img/products/mens-pollo-tallored-grey.jpeg"
+        ],
+        "name": "MEN'S POLO - TROUT FITZ ROY",
+        "snippet": "A super comfortable 100% organic cotton jersey polo for the field or office.
+",
+        "price":"59"
+    },
+    {
+        "category":"shirts",
+        "id": "mens-squeeky-pollomens-squeeky-pollo",
+        "images": [
+            "img/products/mens-squeeky-electronic-blue.jpeg",
+            "img/products/mens-squeeky-oaks-brow.jpeg"
+        ],
+        "name": "MEN'S SQUEAKY CLEAN POLO",
+        "snippet": "Providing T-shirt comfort with a collar, the Squeaky Clean Polo is made of soft 100% organic cotton heathered jersey for all-day comfort.",
+        "price":"59"
+    },
+    {
+        "category":"shirts",
+        "id": "mens-bandito-shirt",
+        "images": [
+            "img/products/mens-bandito-shirt-haircutter.jpeg",
+            "img/products/mens-bandito-shirt-haircutter2.jpeg"
+        ],
+        "name": "MEN'S BANDITO SHIRT",
+        "snippet": "Made from fast-wicking recycled polyester fabric with 25-UPF sun protection, Polygiene® permanent odor control and a back ventilation system, this is a western-inspired shirt that’s built for action. Fabric is bluesign® approved.
+",
+        "price":"89"
+    }

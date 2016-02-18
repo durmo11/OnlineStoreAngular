@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en" ng-app="OnlineStoreApp">
+<head>
+  <meta charset="utf-8">
+  <title>Damir Angular Online Store Project</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="dist/main.min.css">
+    <script src="dist/vendor.min.js"></script>
+    <script src="dist/main.min.js"></script>
+  </head>
+</head>
+<body>
+  <topbar></topbar>
+  <div layout>
+    <md-sidenav class="site-sidenav md-primary" md-component-id="left" md-is-locked-open="$mdMedia('gt-md')" flex="20">
+      <div class="nav-header">
+        <a class="docs-logo" href="/">
+              <img src="../img/icons/shopping-cart-white.png" alt="Shopping Cart">
+        </a>
+        <h1 class="docs-logotype md-heading">Online Shop</h1>
+      </div>
+      <md-content flex="" role="navigation" class="flex" ng-controller="categoryController">
+        <md-button ng-repeat="category in categories"><a ui-sref="productList({ id: category.id })">{{category.name}}</a></md-button>
+      </md-content>
+    </md-sidenav>
+    <main flex-gt-sm="80">
+    <md-content class="ui-view" >
+
+    </md-content>
+  </main>
+</div>
+</body>
+</html>

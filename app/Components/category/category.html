@@ -1,0 +1,9 @@
+<ul layout layout-align"center center">
+  <li flex-gt-md="50" flex-gt-md="50" ng-repeat="category in categories">
+
+    <a ui-sref="productList({ id: category.id })" class="md-raised md-button md-ink-ripple">
+      <img ng-src="{{category.img}}"/>
+      {{category.name}}
+    </a>
+  </li>
+</ul>

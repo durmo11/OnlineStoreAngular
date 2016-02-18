@@ -1,0 +1,11 @@
+<md-toolbar class="shopping-cart" layout="row" layout-align="end center" ng-controller="productController">
+  <div><span class="checkout"style="margin-right:20px;">{{ ngCart.getTotalItems() }}
+      <ng-pluralize count="ngCart.getTotalItems()" when="{1: 'item', 'other':'items'}"></ng-pluralize></span>
+      <span class="checkout">{{ ngCart.totalCost() | currency }}</span>
+  </div>
+    <div>
+      <a ui-sref="checkout" >
+        <img src="../img/icons/shopping-cart-white.png" alt="Shopping Cart">
+      </a>
+    </div>
+</md-toolbar>

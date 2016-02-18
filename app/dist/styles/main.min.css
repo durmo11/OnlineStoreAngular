@@ -1,0 +1,451 @@
+/*!
+ * Angular Material Design
+ * https://github.com/angular/material
+ * @license MIT
+ * v1.0.5
+ */
+
+html,
+input {
+  font-family: Roboto,"Helvetica Neue",sans-serif;
+}
+
+md-input-container:after {
+  content: '';
+  clear: both;
+}
+
+md-option:focus,
+md-select:focus {
+  outline: 0;
+}
+
+ul.phone-thumbs,
+ul.specs {
+  list-style: none;
+}
+
+body,
+html {
+  height: 100%;
+  color: rgba(0,0,0,.87);
+  background: #fff;
+  position: relative;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  min-height: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  vertical-align: baseline;
+}
+
+.md-padding {
+  padding: 8px;
+}
+
+@media (min-width:960px) {
+  .md-padding {
+    padding: 16px;
+  }
+}
+
+.md-headline {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.md-subhead {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: .010em;
+  line-height: 24px;
+}
+
+input {
+  font-size: 100%;
+}
+
+@-moz-document url-prefix()  {
+  .layout-fill {
+    margin: 0;
+    width: 100%;
+    min-height: 100%;
+    height: 100%;
+  }
+}
+
+md-autocomplete input:not(.md-input)::-ms-clear {
+  display: none;
+}
+
+button.md-button::-moz-focus-inner {
+  border: 0;
+}
+
+md-card,
+md-dialog {
+  -webkit-flex-direction: column;
+}
+
+md-card {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+}
+
+md-card {
+  box-sizing: border-box;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14),0 2px 1px -1px rgba(0,0,0,.12);
+}
+
+md-card>:not(md-card-content) img {
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+md-card md-card-title {
+  padding: 24px 16px 16px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+md-card md-card-title md-card-title-text {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+md-card md-card-title md-card-title-text .md-subhead {
+  padding-top: 0;
+  font-size: 14px;
+}
+
+md-card md-card-title md-card-title-media {
+  margin-top: -8px;
+}
+
+md-card md-card-title md-card-title-media .md-media-lg {
+  height: 152px;
+  width: 152px;
+}
+
+md-card md-card-actions {
+  margin: 8px;
+}
+
+@media screen and (-ms-high-contrast:active) {
+  md-card {
+    border: 1px solid #fff;
+  }
+}
+
+.md-datepicker-input::-ms-clear {
+  display: none;
+}
+
+md-dialog {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+}
+
+md-dialog {
+  opacity: 0;
+  min-width: 240px;
+  max-width: 80%;
+  max-height: 80%;
+  position: relative;
+  overflow: auto;
+  box-shadow: 0 7px 8px -4px rgba(0,0,0,.2),0 13px 19px 2px rgba(0,0,0,.14),0 5px 24px 4px rgba(0,0,0,.12);
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+md-dialog.md-transition-in {
+  opacity: 1;
+  transition: all .4s cubic-bezier(.25,.8,.25,1);
+  -webkit-transform: translate(0,0) scale(1);
+  transform: translate(0,0) scale(1);
+}
+
+md-dialog>form {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  overflow: auto;
+}
+
+@media screen and (-ms-high-contrast:active) {
+  md-dialog {
+    border: 1px solid #fff;
+  }
+}
+
+md-input-container {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+md-input-container {
+  position: relative;
+  padding: 2px;
+}
+
+md-input-container:after {
+  display: table;
+}
+
+md-input-container input[type=text] {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+md-input-container label:not(.md-container-ignore) {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: auto;
+}
+
+md-input-container label:not(.md-no-float):not(.md-container-ignore) {
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  pointer-events: none;
+  -webkit-font-smoothing: antialiased;
+  padding-left: 3px;
+  padding-right: 0;
+  z-index: 1;
+  -webkit-transform: translate3d(0,28px,0) scale(1);
+  transform: translate3d(0,28px,0) scale(1);
+  transition: -webkit-transform cubic-bezier(.25,.8,.25,1) .25s;
+  transition: transform cubic-bezier(.25,.8,.25,1) .25s;
+  -webkit-transform-origin: left top;
+  transform-origin: left top;
+}
+
+md-input-container:not(.md-input-has-value) input:not(:focus),
+md-input-container:not(.md-input-has-value) input:not(:focus)::-webkit-datetime-edit-ampm-field,
+md-input-container:not(.md-input-has-value) input:not(:focus)::-webkit-datetime-edit-day-field,
+md-input-container:not(.md-input-has-value) input:not(:focus)::-webkit-datetime-edit-hour-field,
+md-input-container:not(.md-input-has-value) input:not(:focus)::-webkit-datetime-edit-millisecond-field,
+md-input-container:not(.md-input-has-value) input:not(:focus)::-webkit-datetime-edit-minute-field,
+md-input-container:not(.md-input-has-value) input:not(:focus)::-webkit-datetime-edit-month-field,
+md-input-container:not(.md-input-has-value) input:not(:focus)::-webkit-datetime-edit-second-field,
+md-input-container:not(.md-input-has-value) input:not(:focus)::-webkit-datetime-edit-text,
+md-input-container:not(.md-input-has-value) input:not(:focus)::-webkit-datetime-edit-week-field,
+md-input-container:not(.md-input-has-value) input:not(:focus)::-webkit-datetime-edit-year-field {
+  color: transparent;
+}
+
+md-input-container>md-select {
+  margin: 0;
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2;
+}
+
+md-select {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px 0 26px;
+}
+
+md-select:not([disabled]):hover {
+  cursor: pointer;
+}
+
+md-option {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+}
+
+md-option {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: auto;
+  padding: 0 16px;
+  height: 48px;
+}
+
+fieldset {
+  min-width: 0;
+}
+
+ul.phone-thumbs img:hover {
+  cursor: pointer;
+}
+
+.phone-images,
+img.phone {
+  float: left;
+  background-color: #fff;
+}
+
+body {
+  padding-top: 0;
+}
+
+.phone-images {
+  width: 450px;
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+}
+
+[data-abide] small.error {
+  display: none;
+}
+
+small.error {
+  display: block;
+}
+
+md-card {
+  margin: 1%;
+}
+
+md-card .md-headline a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #164371;
+}
+
+md-input-container {
+  margin: 20px;
+}
+
+img.phone {
+  margin-right: 3em;
+  margin-bottom: 2em;
+  padding: 2em;
+  height: 400px;
+  width: 400px;
+  display: none;
+}
+
+img.phone:first-child {
+  display: block;
+}
+
+ul.phone-thumbs {
+  margin: 0;
+}
+
+ul.phone-thumbs li {
+  border: 1px solid #000;
+  display: inline-block;
+  margin: 1em;
+  background-color: #fff;
+}
+
+ul.phone-thumbs img {
+  height: 100px;
+  width: 100px;
+  padding: 1em;
+}
+
+ul.specs {
+  clear: both;
+  margin: 0;
+  padding: 0;
+}
+
+ul.specs>li {
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+}
+
+h1 {
+  border-bottom: 1px solid gray;
+}
+
+.shopping-cart {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 16px;
+  background: #F44336;
+  color: #d3d3d3;
+  box-shadow: 10px 10px 5px #888;
+}
+
+.shopping-cart h2 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.shopping-cart .cart-item {
+  margin-right: 16px;
+  position: relative;
+}
+
+.shopping-cart .cart-item img {
+  height: 92px;
+  width: 92px;
+}
+
+.shopping-cart .cart-item .badge {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: block;
+  background-color: #fff;
+  color: #2c3f52;
+  font-weight: 700;
+  padding: 6px;
+  line-height: 100%;
+  border-radius: 50%;
+}
+
+fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+/*# sourceMappingURL=maps/main.min.css.map */

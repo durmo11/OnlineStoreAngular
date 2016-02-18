@@ -1,0 +1,61 @@
+<div class="md-transition-in md-padding">
+<form name="checkoutForm"  ng-submit="onSubmit()" data-abide>
+
+	<div ng-if="processing" us-spinner></div>
+
+	<fieldset>
+		<legend class="md-headline">Shipping Information</legend>
+
+		<div>
+			<md-input-container>
+				<label>Name</label>
+				<input ng-model="name" type="text" placeholder="Name">
+			</md-input-container>
+			<md-input-container>
+			<label>Address</label>
+				<input ng-model="address" type="text" placeholder="Address">
+		</md-input-container>
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Payment Information</legend>
+
+		<div class="row">
+			<md-input-container ng-class="{error: checkoutForm.number.$invalid}">
+				<label>Card Information	</label>
+					<input ng-model="number" name="number" payments-format="card" payments-validate="card"
+					       placeholder="Card Number" type="text"/>
+			</md-input-container>
+			<md-input-container ng-class="{error: checkoutForm.expiry.$invalid}">
+				<label>Expiry</label>
+					<input ng-model="expiry" name="expiry" payments-format="expiry" payments-validate="expiry"
+					       placeholder="Expiry" type="text"/>
+			</md-input-container>
+			<md-input-container ng-class="{error: checkoutForm.cvc.$invalid}">
+				<label>CVC</label>
+					<input ng-model="cvc" name="cvc" payments-format="cvc" payments-validate="cvc"
+					       placeholder="CVC" type="text"/>
+
+			</md-input-container>
+
+			<div>
+				<ngcart-cart></ngcart-cart>
+			</div>
+		</div>
+	</fieldset>
+
+	<alert ng-if="stripeError" type="'alert'" close="hideAlerts()">
+		Stripe returned an error: {{stripeError}}
+	</alert>
+
+	<alert ng-if="stripeToken" close="hideAlerts()">
+		Stripe successfully acquired! Token: {{stripeToken}}
+	</alert>
+
+		<div>
+			<md-button class="md-raised md-primary" type="submit" ng-disabled="checkoutForm.$invalid">Place Order</md-button>
+		</div>
+
+</form>
+</div>
