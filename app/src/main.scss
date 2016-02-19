@@ -70,3 +70,8 @@ fieldset {
   margin: 0;
   min-width: 0;
 }
+ngproduct-details md-select {border:1px solid black; padding:5px;}
+ngproduct-details md-select .md-select-value {color:: black;}
+ngproduct-details md-select .md-select-value.md-select-placeholder {color:rgba(0,0,0,0.8);}
+md-select-label {text-align: center; padding:5px;    display: block;
+    text-transform: uppercase; color:black;}

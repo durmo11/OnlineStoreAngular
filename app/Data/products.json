@@ -2,6 +2,12 @@
 	{
 	"category": "pants",
 	"id": "mens-untracked-pants",
+	"colors":[
+		"Forge grey",
+		"ash tan",
+		"navy blue",
+		"peppergrass green"
+	],
 	"images": [
 		"img/products/mens-untracked pants-forge-grey.jpeg",
 		"img/products/mens-untracked pants-ash-tan.jpeg",
@@ -14,6 +20,12 @@
 }, {
 	"category": "pants",
 	"id": "mens-powder-bowl-pants",
+	"colors":[
+		"arbor green",
+		"ash tan",
+		"french red",
+		"peppergrass green"
+	],
 	"images": [
 		"img/products/mens-powder-bowl-pants-arbor-green.jpeg",
 		"img/products/mens-powder-bowl-pants-ash-tan.jpeg",
@@ -26,6 +38,10 @@
 }, {
 	"category": "pants",
 	"id": "mens-insulated-powder-bowl-pants",
+	"colors":[
+		"pants-black",
+		"navy-blue"
+	],
 	"images": [
 		"img/products/mens-insulated-powder-bowl-pants-black.jpeg",
 		"img/products/mens-insulated-powder-bowl-pants-navy-blue.jpeg"
@@ -36,6 +52,12 @@
 }, {
 	"category": "pants",
 	"id": "mens-snowshot-pants",
+	"colors":[
+		"Deep Mahogany",
+		"Navy Blue",
+		"Deep Peppergrass Green",
+		"Black"
+	],
 	"images": [
 		"img/products/mens-snowshot-pants-deep-mahogany.jpeg",
 		"img/products/mens-snowshot-pants-navy-blue.jpeg",
@@ -48,6 +70,12 @@
 }, {
 	"category": "jackets",
 	"id": "mens-down-sweater-jacket",
+	"colors":[
+		"Mambre Forge Grey",
+		"Navy Blue",
+		"Peppergrass Green",
+		"Underwater Blue"
+	],
 	"images": [
 		"img/products/mens-down-sweater-jacket-nambre-forge-grey.jpeg",
 		"img/products/mens-down-sweater-jacket-navy-blue.jpeg",
@@ -60,6 +88,12 @@
 }, {
 	"category": "jackets",
 	"id": "mens-nano-air-jacket",
+	"colors":[
+		"Supply green",
+		"Navy Blue",
+		"Sporty Orange",
+		"Drifter Grey"
+	],
 	"images": [
 		"img/products/mens-nano-air-jacket-supply-green.jpeg",
 		"img/products/mens-down-sweater-jacket-navy-blue.jpeg",
@@ -72,6 +106,12 @@
 }, {
 	"category": "jackets",
 	"id": "mens-down-shirt",
+	"colors":[
+		"Electronic Blue",
+		"Oaks Brown",
+		"French Red",
+		"Forge Grey"
+	],
 	"images": [
 		"img/products/mens-down-shirt-electronic-blue.jpeg",
 		"img/products/mens-down-shirt-oaks-brown.jpeg",
@@ -84,6 +124,10 @@
 }, {
 	"category": "jackets",
 	"id": "mens-ultralight-down-hoody",
+	"colors":[
+		"Underwater Blue",
+		"Sporty Orange"
+	],
 	"images": [
 		"img/products/mens-ultralight-down-hoody-underwater-blue.jpeg",
 		"img/products/mens-ultralight-down-hoody-sporty-orange.jpeg"
@@ -94,6 +138,10 @@
 }, {
 	"category": "hoodies",
 	"id": "mens-fitzoy-midweight",
+	"colors":[
+		"Feather Grey",
+		"Kelp Forest"
+	],
 	"images": [
 		"img/products/mens-fitzoy-midweight-feather-grey.jpeg",
 		"img/products/mens-fitzoy-midweight-kelp-forest.jpeg"
@@ -104,6 +152,10 @@
 }, {
 	"category": "hoodies",
 	"id": "mens-line-logo-pullover",
+	"colors":[
+		"Andes Blue",
+		"Pullover Black"
+	],
 	"images": [
 		"img/products/mens-line-logo-pullover-andes-blue.jpeg",
 		"img/products/mens-line-logo-pullover-black.jpeg"
@@ -113,6 +165,10 @@
 	"price": "79"
 }, {
 	"category": "hoodies",
+	"colors":[
+		"Kelp Forest",
+		"Feather Grey"
+	],
 	"id": "mens-crew-sweatshirt",
 	"images": [
 		"img/products/mens-crew-sweatshirt-kelp-forest.jpeg",
@@ -124,6 +180,10 @@
 }, {
 	"category": "hoodies",
 	"id": "mens-tree-man-pullover",
+	"colors":[
+		"Navy Blue",
+		"Kelp Forest"
+	],
 	"images": [
 		"img/products/mens-tree-man-pullover-navy-blue.jpeg",
 		"img/products/mens-tree-man-pullover-kelp-forest.jpeg"
@@ -134,6 +194,10 @@
 }, {
 	"category": "shirts",
 	"id": "mens-all-season-shirt",
+	"colors":[
+		"Arbor Green",
+		"Ash Tan"
+	],
 	"images": [
 		"img/products/mens-all-season-shirt-arbor-green.jpeg",
 		"img/products/mens-all-season-shirt-arbor-ash-tan.jpeg"
@@ -144,6 +208,10 @@
 }, {
 	"category": "shirts",
 	"id": "mens-pollo",
+	"colors":[
+		"Shock Pink",
+		"Tallored Grey"
+	],
 	"images": [
 		"img/products/mens-pollo-shock-pink.jpeg",
 		"img/products/mens-pollo-tallored-grey.jpeg"
@@ -154,6 +222,10 @@
 }, {
 	"category": "shirts",
 	"id": "mens-squeeky-pollomens-squeeky-pollo",
+	"colors":[
+		"Electronic Blue",
+		"Oaks Brown"
+	],
 	"images": [
 		"img/products/mens-squeeky-electronic-blue.jpeg",
 		"img/products/mens-squeeky-oaks-brow.jpeg"
@@ -164,6 +236,10 @@
 }, {
 	"category": "shirts",
 	"id": "mens-bandito-shirt",
+	"colors":[
+		"Haircutter",
+		"Haircutter2"
+	],
 	"images": [
 		"img/products/mens-bandito-shirt-haircutter.jpeg",
 		"img/products/mens-bandito-shirt-haircutter2.jpeg"

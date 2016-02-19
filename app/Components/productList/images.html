@@ -1,0 +1,9 @@
+<a class="" ui-sref="productDetails({ id: product.id })">
+    <img class="largeThumb" ng-src="{{imgUrl}}" alt="{{product.name}}"/>
+</a>
+<div class="thumb">
+      <img ng-src="{{img}}"
+          class="product"
+          ng-repeat="img in product.images"
+          ng-click="setImage(img)">
+</div>

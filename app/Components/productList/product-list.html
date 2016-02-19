@@ -1,7 +1,6 @@
 <!--Body content-->
 <div>
   <div>
-
 <section class="demo-container md-whiteframe-z1">
   <md-toolbar><h1>{{category}}</h1></md-toolbar>
   <div layout-gt-sm="row" class="md-padding">
@@ -20,15 +19,8 @@
 </section>
 <div class="products" layout="row" flex layout-wrap layout-align="center center">
     <div  flex-gt-sm="45" flex-xs="80" ng-repeat="product in (products|filter:categoryKeyValue)|filter:query|orderBy:orderProp">
-      <a class="" ui-sref="productDetails({ id: product.id })">
-        <img class="largeThumb" ng-src="{{product.images[0]}}" ng-class="{active: mainImageUrl==img}" alt="{{product.name}}"/ >
-      </a>
-      <div class="thumb">
-          <img ng-src="{{img}}"
-              class="product"
-              ng-repeat="img in product.images"
-              ng-click="setImage(img)">
-      </div>
+      <product-img product="product" img-url="{{product.images[0]}}">
+      </product-img>
       {{product.name}}
       <span class="md-subhead">{{product.price|currency}}</span>
     </div>
