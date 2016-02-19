@@ -1,0 +1,15 @@
+<a class="" ui-sref="productDetails({ id: product.id })">
+    <img class="largeThumb" ng-src="{{imgUrl}}" alt="{{product.name}}"/>
+</a>
+<div class="thumb">
+      <img ng-src="{{img}}"
+          class="product"
+          ng-repeat="img in product.images"
+          ng-click="setImageColor(img,$index)">
+</div>
+<md-input-container>
+<label>Colors</label>
+<md-select ng-model="color">
+  <md-option value="{{color}}" ng-repeat="color in product.colors" ng-selected="($index == colorIndex) ? true:false" ng-click="setColorImage(color,$index)">{{color}}</md-option>
+</md-select>
+</md-input-container>

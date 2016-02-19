@@ -21,3 +21,32 @@ productDetailsDirective.directive('ngproductDetails', ['ProductService',
         templateUrl: 'Components/productDetails/product-details.html',
     };
 }]);
+productDetailsDirective.directive('productColor',
+  function(){
+    return {
+        restrict : 'E',
+        transclude:true,
+        scope: {
+          product:'=',
+          imgUrl:'@',
+          colorUrl:'@',
+          imgIndex:'='
+        },
+        link: function($scope, $element, $attrs) {
+           $scope.setImageColor = function(img,index) {
+             $scope.imgUrl=img;
+             $scope.colorIndex=index;
+             $scope.imgIndex=index;
+             console.log($scope.imgIndex);
+             $scope.colorUrl=$scope.product.colors[$scope.colorIndex];
+         };
+         $scope.setColorImage = function(color,index) {
+           $scope.colorUrl=color;
+           $scope.imgIndex=index;
+           $scope.imgUrl=$scope.product.images[$scope.imgIndex];
+           console.log($scope.imgIndex);
+       };
+       },
+        templateUrl:'Components/productDetails/colors.html',
+    };
+});

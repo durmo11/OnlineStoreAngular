@@ -6,11 +6,7 @@
 </md-content>
 <div flex="40">
   <md-toolbar class="md-whiteframe-glow-z1 site-content-toolbar"><h3 layout layout-align="center center">{{product.name}}</h3></md-toolbar>
-  <product-img product="product" img-url="{{product.images[0]}}"></product-img>
-  <md-select ng-model="color">
-   <md-select-label>Colors</md-select-label>
-    <md-option value="{{color}}" ng-repeat="color in product.colors">{{color}}</md-option>
-  </md-select>
+  <product-color product="product" img-url="{{product.images[0]}}" color-url="{{product.colors[0]}}" img-index="0"></product-color>
   <span class="price" layout-align="left">Price:{{product.price|currency}}</span>
   <ngcart-addtocart id="{{product.id}}" name="{{product.name}}" price="{{product.price}}" quantity="1" quantity-max="5" layout layout-align="center center"></ngcart-addtocart>
 </div>

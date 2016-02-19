@@ -10,7 +10,7 @@
 * {box-sizing: border-box;}
 a{display:block;}
 section div.md-padding {background:rgba(0,0,0,0.5);}
-div md-input-container {margin:0}
+div md-input-container {margin:0; width:100%;}
 section md-input-container .md-input {border-color:white;}
 md-input-container .md-placeholder, md-input-container label:not(.md-no-float):not(.md-container-ignore) {padding-left:10px;color:white;}
 md-sidenav {background:#383838; height:100vh;}
