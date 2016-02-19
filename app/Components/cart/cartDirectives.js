@@ -18,6 +18,7 @@ var cartDirectives=angular.module('cartDirectives', ['ngCart.fulfilment'])
                 quantity:'@',
                 quantityMax:'@',
                 price:'@',
+                color:'@',
                 data:'='
             },
             transclude: true,

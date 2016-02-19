@@ -176,7 +176,7 @@ OnlineStoreServices.factory('ProductService', ['$resource',
               _self.$cart.tax = storedCart.tax;
 
               angular.forEach(storedCart.items, function (item) {
-                  _self.$cart.items.push(new ngCartItem(item._id,  item._name, item._price, item._quantity, item._data));
+                  _self.$cart.items.push(new ngCartItem(item._id,  item._name, item._price, item._quantity,item._color, item._data));
               });
               this.$save();
           };
@@ -189,12 +189,13 @@ OnlineStoreServices.factory('ProductService', ['$resource',
 
       OnlineStoreServices.factory('ngCartItem', ['$rootScope', '$log', function ($rootScope, $log) {
 
-          var item = function (id, name, price, quantity, data) {
+          var item = function (id, name, price, quantity,color, data) {
               this.setId(id);
               this.setName(name);
               this.setPrice(price);
               this.setQuantity(quantity);
               this.setData(data);
+              this.setColor(color);
           };
 
 
@@ -218,6 +219,15 @@ OnlineStoreServices.factory('ProductService', ['$resource',
           };
           item.prototype.getName = function(){
               return this._name;
+          };
+          item.prototype.setColor = function(color){
+              if (color)  this._color = color;
+              else {
+                  $log.error('A color must be provided');
+              }
+          };
+          item.prototype.getColor = function(){
+              return this._color;
           };
 
           item.prototype.setPrice = function(price){

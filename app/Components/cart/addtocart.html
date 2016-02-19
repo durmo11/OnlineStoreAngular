@@ -11,7 +11,7 @@
                       ng-options=" v for v in qtyOpt"></select>
           </span>
           <md-button class="md-raised md-primary"
-             ng-click="ngCart.addItem(id, name, price, q, data)"
+             ng-click="ngCart.addItem(id, name, price, q, color, data)"
              ng-transclude>Add to Cart</md-button>
       </div>
       <h3 ng-show="inCart()">

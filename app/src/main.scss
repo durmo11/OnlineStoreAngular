@@ -72,6 +72,16 @@ md-toolbar.shopping-cart.ng-scope.layout-align-end-center.layout-row div {margin
     font-weight: 400;
     line-height: 1;
     -webkit-font-smoothing: antialiased;width:15px; height:15px;}
+.glyph-remove {width:100%; display:block;}
+.glyph-remove:before {       content: "\f00d";
+    background: #000;
+    color: #fff;
+    padding: 5px;
+    font-size: 20px;
+    width: 100%;
+    left: -5px;
+    position: absolute;
+    top: -10px;}
 .glyph-minus:before {content:"\f068"}
 .glyph-plus:before {content:"\f055"}
 fieldset {
@@ -80,10 +90,11 @@ fieldset {
   margin: 0;
   min-width: 0;
 }
-ngcart-addtocart md-select, ngproduct-details md-select {border:1px solid black; padding:5px;}
-ngcart-addtocart md-select-value, .md-select-value {color:: black;}
+ngproduct-details md-select {border:1px solid black; padding:5px;}
+ngproduct-details .md-select-value {color:: black;}
 ngproduct-details md-select .md-select-value.md-select-placeholder {color:rgba(0,0,0,0.8);}
 
-ngcart-addtocart md-select label, md-select-label {text-align: center; padding:5px;    display: block;
-    text-transform: uppercase; color:black;}
-a.md-button.md-default-theme.md-primary.md-raised, a.md-button.md-primary.md-raised, a.md-button.md-default-theme.md-primary.md-fab, a.md-button.md-primary.md-fab, .md-button.md-default-theme.md-primary.md-raised, .md-button.md-primary.md-raised, .md-button.md-default-theme.md-primary.md-fab, .md-button.md-primary.md-fab {color:white;}
+ngcart-addtocart md-select label, md-select-label {text-align: center; padding:5px;    display: block; text-transform: uppercase; color:black;}
+ngcart-cart table {width:100%; text-align:center;}
+ngcart-cart table tr {background:rgba(0,0,0,0.1); }
+ngcart-cart table th, ngcart-cart table td {padding:5px;}
