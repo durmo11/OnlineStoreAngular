@@ -93,7 +93,8 @@ fieldset {
 ngproduct-details md-select {border:1px solid black; padding:5px;}
 ngproduct-details .md-select-value {color:: black;}
 ngproduct-details md-select .md-select-value.md-select-placeholder {color:rgba(0,0,0,0.8);}
-
+ngproduct-details .specs {border-left:1px solid black;}
+ngproduct-details p { padding:40px; background: black; color: #fff; text-align: center;margin:0;}
 ngcart-addtocart md-select label, md-select-label {text-align: center; padding:5px;    display: block; text-transform: uppercase; color:black;}
 ngcart-cart table {width:100%; text-align:center;}
 ngcart-cart table tr {background:rgba(0,0,0,0.1); }
