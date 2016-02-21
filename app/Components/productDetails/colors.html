@@ -13,3 +13,5 @@
   <md-option value="{{color}}" ng-repeat="color in product.colors" ng-selected="($index == colorIndex) ? true:false" ng-click="setColorImage(color,$index)">{{color}}</md-option>
 </md-select>
 </md-input-container>
+<span class="price" layout-align="left">Price:{{product.price|currency}}</span>
+<ngcart-addtocart id="{{product.id}}" name="{{product.name}}" price="{{product.price}}" color="{{colorUrl}}" quantity="1" quantity-max="5"layout layout-align="center center"></ngcart-addtocart>

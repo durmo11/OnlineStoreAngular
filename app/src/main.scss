@@ -23,9 +23,12 @@ md-sidenav {    background: #383838;
 md-select .md-select-value {border-bottom-color:white; color:white;}
 md-select .md-select-value.md-select-placeholder {color:white;}
 md-sidenav md-content {background:#9E9E9E;}
-md-sidenav img {display:block; width:100%; height:auto;     max-width: 100px;
-    margin: 30px auto;}
-md-sidenav h1 {text-transform:uppercase;text-align:center; font-weight:normal; color:white;}
+md-sidenav img {    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 50px;
+    margin: 20px auto;}
+md-sidenav h1 {text-transform:uppercase;text-align:center; font-weight:normal; color:white;font-size:24px;}
 md-sidenav .md-button {    display: block;
     text-align: center;
     width: 95%;
@@ -90,6 +93,7 @@ fieldset {
   margin: 0;
   min-width: 0;
 }
+ngproduct-details h3 {text-align:center;}
 ngproduct-details md-select {border:1px solid black; padding:5px;}
 ngproduct-details .md-select-value {color:: black;}
 ngproduct-details md-select .md-select-value.md-select-placeholder {color:rgba(0,0,0,0.8);}
